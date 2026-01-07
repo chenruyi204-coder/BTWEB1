@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+.header{
+    height: 80px;
+    background-color: blue;
+    color: white;
+    position: relative;
+}
+.menu{
+    text-align: center;
+    background-color:aliceblue
+}
+.main{
+    float: left;
+    width: 100%;
+}
+.content{
+    float: right;
+    width: 75%;
+    height: 400px;
+}
+.sidebar{ 
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+#logo{
+    padding :10px;
+    font-size: 24px;
+    float: left;
+    margin: 10px;
+}
+#login{
+    font-size: 30px;
+    float: right;
+    position: absolute;
+    top: 20px ;
+    right: 20px;
+}
+
+#menu a:hover{
+    background-color: black;
+    color: white;
+}
+#menu a:link{
+    color: white;
+    background-color: red;
+}
+#menu a:visited{
+    color: blue;
+}
+#menu a:active{
+    color: yellow;
+    background-color: green;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+}
+.sidebar-item{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.card{
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    position: relative;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hot{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+body {
+    background: #eaeaea url("tai nguyen\hinh_nen_may_tinh_4k_bien_1_1746181249736.jpg") no-repeat fixed center top;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
